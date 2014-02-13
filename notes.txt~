@@ -65,42 +65,23 @@ III. Data types and variables (Part1)
 		b = False
 		type(a) # bool
 
-IV. Flow-control
-	- If / Else
-		if True:
-			print "hello"
-			print "again"
-		else:
-			print "whatever"
 
-	- == is equal, != is not equal, > is greater than, >= greater than or equal, < less than, <= less than or equal
-			- Can nest if/else/elif
-				- Don't do this much. Probably a better way to do this.
-	
-	- Loops
-		a = [0,1,2,3,4,5]
-		for element in a:
-			print element
+
+
 		
-		- I need to know the index of what I am modifying
-		i = 0
-		for elements in a:
-			a[i] = element**2
-			i += 1
-		range(10)
-		len(a)
-		range(6)
-		for i in range(len(a)):
-			a[i] = a[i]**2
+		
 
-		- While - always have an exit condition
-		i = 0		
-		while True:
-		  if i == 25:
-				break
-			print i
-			i += 1
 			
+
+
+			
+
+
+
+IV. Flow-control
+
+
+
 V. Example
 
 
