@@ -22,5 +22,12 @@ print base_ip
 for i in range(255):
   if i != 0:
      network_list.append(base_ip + str(i))
+     
+
+print network_list
+
+for ip in network_list
+  print ip
+
 
 

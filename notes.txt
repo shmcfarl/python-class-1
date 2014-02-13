@@ -100,12 +100,82 @@ IV. Flow-control
 				break
 			print i
 			i += 1
-			
-V. Example
+				
+V. Example # HE DID NOT FINISH EXPLAINING THE REST OF THE EXERCISE GET THIS FROM HIM!!!!!!!!!!!
+ - Make incremental changes
+ - Small chunks
+ - Keep program working with small changes
+	- "pass" can be used in if statement as a null
+  -import os
+   os.system("ping" -c 3 -n " + ip)
 
 
 VI. Functions
-
+- Reuse actions
+- Start with def
+- a_sum(5,10) 5 is position 0 and 10 is 1
+- named does not go off element position
+- can set default values at start of def
+- variable namespace:
+  - local module level is value under def:
+  - global level is set outside of def	
+-dictionary is not ordered. A list is.
+- import <library>
+- call function
+  import test2
+  test2.asum(5,10)
+- or from test2 import a_sum  # import without having name. not great due to name conflicts
+  - a_sum(5,10)
 
 VII. More on data types (Part 2)
+- Dictionary - mutable
+	- Dictionary is not ordered. You may not get consistent returns in order
+	- Good to have named fields with dictionary
+  - a.get('name')
+
+-raw strings
+  windows_path = 'C:\Windows\new\whatever' # \n can be an issue
+ >>> windows_path = r'C:\Windows\new\whatever'
+>>> print windows_path
+C:\Windows\new\whatever
+
+-Lists
+- pop
+- del b[0]
+- remote based on value vs index
+>>> a
+[100, 2, 3, 4, 5]
+>>> a.remove(100)
+>>> a
+[2, 3, 4, 5]
+
+
+VIII. File in/out
+- Missed the whole example on reading files
+
+IX. Example
+
+Not doing
+
+X. Where to go
+- 
+
+
+Feedback:
+- No slides/docs that explain your topics offline
+- Did not get a full explanation of the example. Need the actual full example with comments
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
 
